@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ejercicio 16 </title>
+    <style>
+        form {
+            margin: 2em;
+        }
+        select {
+            padding: 1ex;
+            margin-top: 1ex;
+            background-color: whitesmoke;
+        }
+        input:focus {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="hola@gmail.com">
+        <p>
+            <label for="curso">
+                Curso
+            </label><br>
+            <select id="curso">
+                <option value="">Seleccione curso</option>
+                <optgroup label="ESO">
+                    <option value="1eso">1º de ESO</option>
+                    <option value="2eso">2º de ESO</option>
+                    <option value="3eso">3º de ESO</option>
+                    <option value="4eso">4º de ESO</option>
+                </optgroup>
+                <optgroup label="Bachillerato">
+                    <option value="1Bach">
+                        1º de Bachillerato
+                    </option>
+                    <option value="2Bach">
+                        2º de Bachillerato
+                    </option>
+                </optgroup>
+            </select>
+        </p>
+    </form>
+</body>
+</html>

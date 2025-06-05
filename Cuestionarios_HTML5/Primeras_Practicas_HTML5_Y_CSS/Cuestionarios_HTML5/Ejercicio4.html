@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 4</title>
+    <style>
+        form {
+            margin: 2px;
+        }
+        label, input {
+            display: block;
+        }
+        #nombre {
+            margin-bottom: 1em;
+        }
+        input {
+            padding: 1ex;
+            border-radius: 1em;
+            margin-top: 1ex;
+            background-color: whitesmoke;
+        }
+        input [type="submit"] {
+            margin-top: 2em;
+            background-color: white;
+            padding: 1ex 2em;
+            font-weight: bolder;
+        }
+        input:focus {
+            background-color: white;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="correo@gmail.com">
+        <p>
+            <label for="nombre">Nombre:<input type="text" id="nombre" required></label>
+        </p>
+        <p>
+            <label for="pass">Contraseña:<input type="password" name="pass" required></label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+        </p>
+    </form>
+</body>
+</html>

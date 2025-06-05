@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 5</title>
+    <style>
+        form {
+            margin: 2em;
+        }
+        input {
+            padding: 1ex;
+            border-radius: 1em;
+            margin-top: 1ex;
+            background-color: whitesmoke;
+        }
+        input[type="submit"],input[type="reset"] {
+            display: inline-block;
+            margin-top: 1em;
+            background-color: white;
+            padding: 1ex 2em;
+            font-weight: bolder;
+            outline: none;
+        }
+        input:focus {
+            background-color: white;
+            outline: none;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="hola@gmail.com">
+        <p>
+            <label for="nombre">Nombre:<input type="text" id="nombre" size="24"></label>
+        </p>
+        <p>
+            <label for="ciudad">Ciudad:<input type="text" name="ciudad" value="Salamanca" size="24"></label>
+        </p>
+        <p>
+            <input type="submit" value="Enviar">
+            <input type="reset" value="Resetear">
+        </p>
+    </form>
+</body>
+</html>

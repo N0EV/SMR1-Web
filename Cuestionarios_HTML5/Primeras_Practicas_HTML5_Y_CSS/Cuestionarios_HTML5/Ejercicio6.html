@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 6</title>
+    <style>
+        form {
+            margin: 2em;
+        }
+        input[type="submit"] {
+            background-color: white;
+            padding: 1ex 2em;
+            font-weight: bolder;
+            border-radius: 1em;
+        }
+        ul {
+            list-style: none;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="#">
+        <p> ¿ Cuáles de los siguientes lenguajes se emplean en la web ? </p>
+            <ul>
+                <li>
+                    <label>
+                        <input type="checkbox" name="html" value="html" id="html" checked>HTML</label></li>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="css" value="css" id="css">CSS</label></li>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="erre" value="R" id="r">R</label></li>
+                    </label>
+                </li>
+                <li>
+                    <label>
+                        <input type="checkbox" name="js" value="javascript" id="js">JavaScript</label></li>
+                    </label>
+                </li>
+            </ul>
+            <p><input type="submit" disabled></p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ejercicio Empleo</title>
+    <style>
+        form {
+            width: 100%;
+            height: auto;
+        }
+        img {
+            width: 20px;
+            height: auto;
+        }
+        #academico {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend> Datos personales </legend>
+        <p>
+            <label>
+                Nombre:
+            </label>
+            <input type="text" id="nombre" name="nombre" size="20" placeholder="Tu Nombre">
+        </p>
+        <p>
+            <label>
+                Apellidos:
+            </label>
+            <input type="text" id="apellidos" name="apellidos" size="20" placeholder="Tus Apellidos">
+        </p>
+        <p>
+            <label>
+                Correo:
+            </label>
+            <input type="text" id="apellido" placeholder="Ejemplo@Ejemplo.com">
+        </p>
+        <p>
+            <label>
+                Fecha de Nacimiento:
+            </label>
+            <input type="date">
+        </p>
+        </fieldset>
+        <fieldset>
+            <legend> Meritos Academicos </legend>
+            <p>
+                <label>
+                    Titulos:
+                </label>
+                <input type="text" placeholder="Titulos Academicos mas altos" id="academico">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend> Sector Especialidad </legend>
+            <p>
+                <label>
+                    <input type="checkbox" name="ciberseguridad"> Ciberseguridad
+                </label><br>
+                <label>
+                    <input type="checkbox" name="SO"> Sistemas Operativos
+                </label><br>
+                <label>
+                    <input type="checkbox" name="Redes"> Redes Locales
+                </label><br>
+                <label>
+                    <input type="checkbox" name="Web"> Aplicaciones Web
+                </label>
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Comunidad Autonoma</legend>
+            <p>
+                Seleccione la comunidad autonoma en la que quiere trabajar
+            </p>
+            <select>
+                <option> Seleccione Comunidad</option>
+                <optgroup label="Comunidad Autonoma">
+                    <option>Madrid</option>
+                    <option>Castilla y León</option>
+                    <option>Extremadura</option>
+                    <option>Castilla la Mancha</option>
+                    <option>Andalucía</option>
+                    <option>Cantabria</option>
+                    <option>Baleares</option>
+                    <option>Murcia</option>
+                    <option>Rioja</option>
+                    <option>Melilla</option>
+                    <option>Aragón</option>
+                    <option>Canarias</option>
+                    <option>Galicia</option>
+                    <option>Navarra</option>
+                    <option>Valencia</option>
+                    <option>Asturias</option>
+                    <option>Cantabria</option>
+                    <option>Cataluña</option>
+                    <option>País Vasco</option>
+                    <option>Ceuta</option>
+                </optgroup>
+            </select>
+        </fieldset>
+        <p>
+            <label>
+                Progreso: <progress value="2" max="20"></progress> 
+            </label>
+        </p>
+        <p>
+            <button><img src="Img/Impresora.png"></button>
+            <input type="submit">
+        </p>
+    </form>
+</body>
+</html>

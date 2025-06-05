@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 14</title>
+    <style>
+        form {
+            margin: 2em;
+        }
+        p:first-child {
+            margin: 0 0 1em 0;
+        }
+        p {
+            margin: 0 0 0 1em;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="#">
+        <p>
+            Indique el grado de conocimiento adquirido sobre los siguientes lenguajes de programación
+        </p>
+        <p>
+            <label>
+                HTML: <input type="range" id="html" min="0" max="100" step="1" value="50">
+            </label>
+        </p>
+        <p>
+            <label>
+                CSS: <input type="range" id="css" min="0" max="100" step="1" value="50">
+            </label>
+        </p>
+        <p>
+            <label>
+                JavaScript: <input type="range" id="js" min="0" max="100" step="1" value="50">
+            </label>
+        </p>
+    </form>
+</body>
+</html>

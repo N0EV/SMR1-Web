@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Ejercicio 13 </title>
+    <style>
+        form {
+            margin: 2em;
+        }
+        #nombre {
+            margin-bottom: 1em;
+        }
+        input {
+            padding: 1ex;
+            margin-top: 1ex;
+            background-color: whitesmoke;
+        }
+        input:focus {
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <form method="post" action="#">
+        <p>
+            <label>
+                Señale el número de preguntas que desea contestar: <input type="number" id="numPreguntas" min="5" max="30" step="5" value="15">
+            </label>
+        </p>
+    </form>
+</body>
+</html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+    <style>
+        form {
+            margin: 2em;
+        } /*Form le ponemos margin para que haya espacio en el formulario*/
+        label,input {
+            display: block;
+        } /*Esto le ponemos label,imput para las dos*/
+        #nombre {
+            margin-bottom: 1em;
+        } /*Se ponde #nombre porque hemos puesto un id*/
+        input {
+            padding: 1ex;
+            border-radius: 1em;
+            margin-top: 1ex;
+            background-color: whitesmoke;
+        } /*El imput lo ponemos para decirle como queremos que sea donde el usuario va a escribir el texto*/
+        input:focus {
+                background-color: white;
+                outline: none;
+            } /*El imput cuando estamos en focus, es decir cuando vamos a escribir dentro del cuadro que hemos hecho antes*/
+    </style>
+</head>
+<body>
+    <form method="post" action="#"><!--Demomento ponemos el # ( tambien le podemos poner un correo nuestro ) porque no sabemos programar para Backend-->
+        <p>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" size="15">
+        </p>
+        <p>
+            <label>Apellidos<br><input type="text" id="apellidos" name="apellidos" size="30"></label>
+        </p>
+    </form>
+</body>
+</html>

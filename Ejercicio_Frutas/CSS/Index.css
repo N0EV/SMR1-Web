@@ -1,0 +1,45 @@
+html {
+    font-family: sans-serif;
+    hyphens: auto;
+} /*Esto es para todo el documento, para que tenga el mismo tipo de letra*/
+article {
+    display: flex;
+    flex-wrap: wrap;
+} /*Esto me sirve para todos */
+div.ficha {
+    border: black 2px solid;
+    margin: 10px;
+}
+article p {
+    margin: 0;
+    padding: 5px;
+}
+p.p1 {
+    text-align: center;
+}
+p.p2 {
+    padding: 5px 0;
+    background-color: lightgray;
+    font-size: 150%;
+    font-weight: bold;
+    text-align: center;
+}
+p.p3 {
+    text-align: justify;
+}
+/* Esto es para todo lo de la pagina en general*/
+/* Ahora vamos a hacer la sección a11*/
+article.a11 p.p3 {
+    width: 158px;
+    margin: 10px;
+    border: black 2px solid;
+}
+/*Esto es para el a12*/
+article.a12 {
+    justify-content: flex-start;
+}
+article.a12 p.p3 {
+    width: 200px;
+    margin: 2px;
+    border: black 2px solid;
+}
