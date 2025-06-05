@@ -1,0 +1,32 @@
+#contenedor {
+    width: 80%;
+    max-width: 950px;
+}
+#cabecera {
+    text-decoration: none;
+    margin-bottom: 4em;
+}
+#menu {
+    text-decoration: none; /* Que los enlaces aparezcan sin subrrayar */
+}
+#menu li {
+    list-style-type: none; /* Quita los puntos de la lista */
+    float: left;
+    margin: 10px; /* Por fuera */
+    padding: 0px; /* Por dentro */
+}
+#menu li a:hover {
+    color: black;
+}
+#menu li a:visited { /* Creo que para que esto funcione bien las letra no tienen que estar separadas por que si no lo interpreta mal */
+    color: red;
+}
+#contenido {
+    background-color: grey;
+    border: 2px;
+    color: white;
+}
+.articulo h2 {
+    font-family: Verdana;
+    color: red;
+}

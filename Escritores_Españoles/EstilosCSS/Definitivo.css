@@ -1,0 +1,59 @@
+.Contenedor {
+    border-style: solid;
+    border-color: black;
+    background-color: orange;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: medium;
+}
+header {
+    font-size: 40px;
+    padding: 20px;
+}
+main {
+    display: block;
+    border-left: solid;
+    border-right: solid;
+    border-color: orange;
+}
+p {
+    text-align: justify;
+    margin: 8px;
+    padding-bottom: 10px;
+    font-family: 'Times New Roman', Times, serif;
+}
+aside {
+    display: block;
+    float: right;
+    border-left: solid;
+    border-color: orange;
+    margin-left: 10px;
+}
+img {
+    padding: 10px;
+    width: auto;
+    height: 140px;
+}
+.Siglo section {
+    display: block;
+    background-color: white;
+    padding-bottom: 70px;
+}
+article {
+    padding-bottom: 20px;
+    margin-top: 20px;
+    margin-right: 20px;
+    margin-left: 20px;
+    background-color:rgb(255, 207, 157)
+}
+section {
+    margin: 20px;
+}
+h1 {
+    margin: 8px;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: orange;
+    color:white;
+    padding: 2px;
+    padding-right: 2px;
+}

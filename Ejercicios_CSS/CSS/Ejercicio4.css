@@ -1,0 +1,20 @@
+.xul {
+    list-style-type: none; /* Quita los puntos de la lista*/
+    margin: 20px;
+    padding: 20px;
+    overflow: hidden; /* El contenido es recordado y no se
+                        muestran barras de desplazamiento. El contenido
+                        se ubica en la siguiente linea*/
+    background-color: #D6AFDC;
+}
+.xli {float: left;} /* En lugar de poner li uno debajo del otro
+                    hacemos que floten a la izquierda, es decir,
+                    se ponen uno al lado del otro. Se ponen como en un
+                    menú */
+.xli a {
+    color: white;
+    text-align: center;
+    padding: 10px;
+    text-decoration: none; /* Para que los enlaces esten sin subrrayar */
+}
+.xli a:hover {background-color: blue;}

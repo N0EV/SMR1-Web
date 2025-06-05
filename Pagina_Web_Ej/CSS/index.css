@@ -1,0 +1,73 @@
+header img {
+    height: 80px;
+    width: auto;
+}
+header p {
+    display: block;
+    float: right;
+    color: blue;
+}
+nav li {
+    list-style-type: none;
+    color: white;
+    padding: 10px;
+    padding-left: 10px;
+    margin: auto;
+    display: block;
+    float: right;
+    background-color: black;
+}
+nav li:hover {
+    background-color: white;
+}
+nav li a:hover {
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+a:hover {
+    color: black;
+}
+.encabezado {
+    width: auto;
+    height: 440px;
+    text-align: center;
+    background-image: url(/img/webinar.jpg);
+    clear: both;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.encabezado h1 {
+    font-size: 70px;
+    padding: 200px;
+    text-shadow: 8px 2px 4px white;
+}
+.Cuerpo1 h1 {
+    color: blue;
+}
+.Cuerpo1 {
+    padding: 20px;
+    text-align: justify;
+    text-align: left;
+}
+aside {
+    display: block;
+    float: right;
+    text-align: left;
+    text-align: justify;
+    width: 20%;
+    height: 400px;
+
+}
+footer img {
+    width: 40px;
+    height: auto;
+}
+footer table {
+    display: block;
+    float: left;
+    padding-top: 20px;
+    padding-right: 200px;
+}
